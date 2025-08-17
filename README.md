@@ -54,14 +54,7 @@ This project is a full-stack DAG-based job scheduler. It allows users to create 
 ### Access the dashboard
 Open your browser and go to: [http://localhost:3000](http://localhost:3000)
 
-## Environment Variables
-- Create a `.env` file in both `server/` and `frontend_server/` as needed (see `.env.example` if available).
-- Set `NEXT_PUBLIC_API_URL` in `frontend_server/.env` to point to your backend (e.g., `http://localhost:8000`).
-
 ## Notes
 - The backend computes job children dynamically from dependencies.
 - The frontend always fetches canonical job data from the backend.
 - Jobs can be scheduled with either a cron expression or a specific time (ISO 8601).
-
-## License
-MIT
