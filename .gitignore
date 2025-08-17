@@ -1,0 +1,69 @@
+# Rust
+/target/
+**/*.rs.bk
+
+# Node
+node_modules/
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Misc
+*.swp
+*.swo
+*.tmp
+
+# Docker
+**/.docker/
+**/docker-compose.override.yml
+
+# Build
+/dist/
+/build/
+
+# Coverage
+coverage/
+
+# Next.js
+.next/
+
+# Ignore local SQLite DBs
+*.sqlite
+*.sqlite3
+
+# Ignore Python cache (if any)
+__pycache__/
+*.pyc
+
+# Ignore test output
+*.out
+
+# Ignore backups
+*~
+
+# Ignore by convention
+.idea/
+*.iml
+
+# Ignore frontend build artifacts
+frontend_server/.next/
+frontend_server/node_modules/
+frontend_server/.env
+
+# Ignore backend build artifacts
+server/target/
+server/.env
